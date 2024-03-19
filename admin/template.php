@@ -21,7 +21,7 @@
 const CollectionList = {
   template: `
     <div class="container mt-4">
-      <div>
+      <div class="py-4">
         <form @submit.prevent="searchCollection">
           <input type="text" v-model="searchTerm" placeholder="Buscar...">
           <select v-model="searchOption">
@@ -130,7 +130,11 @@ const CollectionList = {
 // Component CreateCollection
 const CreateCollection = {
     template:`
-    <button type="button" class="btn btn-primary float-end mr-4" @click="showModal = true">Nova Obra</button>
+    <div class="container mt-4">
+      <div class="">
+        <button type="button" class="btn btn-primary float-end mr-4" @click="showModal = true">Nova Obra</button>
+      </div>
+    </div>
     <!-- Modal Create -->
     <div id="createCollectionModal" class="modal show mt-5" tabindex="-1" role="dialog" v-if="showModal" style="display: block;">
         <div class="modal-dialog" role="document">
