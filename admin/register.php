@@ -23,6 +23,6 @@ function collection_settings_page() {
 
     // Content
     echo '<div class="wrap">';
-    require_once(plugin_dir_path(__FILE__).'/templates/admin-page.php');
+    require_once('template.php');
     echo '</div>';
 }
