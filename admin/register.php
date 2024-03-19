@@ -23,6 +23,6 @@ function collection_settings_page() {
 
     // Content
     echo '<div class="wrap">';
-    include_once('collection-book-admin-page.php');
+    require_once(plugin_dir_path(__FILE__).'/templates/admin-page.php');
     echo '</div>';
 }
