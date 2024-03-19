@@ -17,4 +17,4 @@ require_once(plugin_dir_path(__FILE__) . 'inc/register.php');
 require_once(plugin_dir_path(__FILE__) . 'inc/api.php');
 
 //Admin Page for Collections
-require_once(plugin_dir_path(__FILE__) . 'admin/admin-page.php');
+require_once(plugin_dir_path(__FILE__) . 'admin/register.php');
