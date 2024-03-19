@@ -11,9 +11,10 @@ if (!defined('ABSPATH')) {
 }
 
 //Register CPT and CF
-
+require_once(plugin_dir_path(__FILE__) . 'inc/register.php');
 
 //API CRUD
-
+require_once(plugin_dir_path(__FILE__) . 'inc/api.php');
 
 //Admin Page for Collections
+require_once(plugin_dir_path(__FILE__) . 'admin/admin-page.php');
